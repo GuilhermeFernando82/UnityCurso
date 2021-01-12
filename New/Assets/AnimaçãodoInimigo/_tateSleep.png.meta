@@ -1,0 +1,1426 @@
+fileFormatVersion: 2
+guid: 792093fa36772294082b74be6f0e0518
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7531775362798541504
+    second: _tateSleep_0
+  - first:
+      213: -1811105121513018387
+    second: _tateSleep_1
+  - first:
+      213: -7163890919149711231
+    second: _tateSleep_2
+  - first:
+      213: 4204316815996491042
+    second: _tateSleep_3
+  - first:
+      213: -8424033196207148090
+    second: _tateSleep_4
+  - first:
+      213: -3156602853636530290
+    second: _tateSleep_5
+  - first:
+      213: 7610514830815220862
+    second: _tateSleep_6
+  - first:
+      213: 7883579901181881320
+    second: _tateSleep_7
+  - first:
+      213: 3979686097240606847
+    second: _tateSleep_8
+  - first:
+      213: -9204349704258696071
+    second: _tateSleep_9
+  - first:
+      213: 4806051042208354927
+    second: _tateSleep_10
+  - first:
+      213: -3351382878911861600
+    second: _tateSleep_11
+  - first:
+      213: -5487453943271218211
+    second: _tateSleep_12
+  - first:
+      213: -6330556876922229578
+    second: _tateSleep_13
+  - first:
+      213: -4121463189764430726
+    second: _tateSleep_14
+  - first:
+      213: -8288493281845541067
+    second: _tateSleep_15
+  - first:
+      213: -6553681734926744883
+    second: _tateSleep_16
+  - first:
+      213: 7732481923970560842
+    second: _tateSleep_17
+  - first:
+      213: 6729385772633179950
+    second: _tateSleep_18
+  - first:
+      213: -8560080912483664011
+    second: _tateSleep_19
+  - first:
+      213: -5786062345645583080
+    second: _tateSleep_20
+  - first:
+      213: -4921135077386069652
+    second: _tateSleep_21
+  - first:
+      213: 1455583050015206893
+    second: _tateSleep_22
+  - first:
+      213: -4852747839839771382
+    second: _tateSleep_23
+  - first:
+      213: 3898534594648036960
+    second: _tateSleep_24
+  - first:
+      213: 2559602117827781035
+    second: _tateSleep_25
+  - first:
+      213: 870010557537926358
+    second: _tateSleep_26
+  - first:
+      213: 5971421538911872945
+    second: _tateSleep_27
+  - first:
+      213: 5572210213804756034
+    second: _tateSleep_28
+  - first:
+      213: -4486151376380376653
+    second: _tateSleep_29
+  - first:
+      213: 5718782734524843264
+    second: _tateSleep_30
+  - first:
+      213: -4672985186360699779
+    second: _tateSleep_31
+  - first:
+      213: 5222263788836585021
+    second: _tateSleep_32
+  - first:
+      213: -7783107753142131080
+    second: _tateSleep_33
+  - first:
+      213: -7635609443760440015
+    second: _tateSleep_34
+  - first:
+      213: -1207796481818876715
+    second: _tateSleep_35
+  - first:
+      213: -707713081358194625
+    second: _tateSleep_36
+  - first:
+      213: 7684136683446054952
+    second: _tateSleep_37
+  - first:
+      213: -9202568271188569808
+    second: _tateSleep_38
+  - first:
+      213: -7138807929869752950
+    second: _tateSleep_39
+  - first:
+      213: -3239858088710694834
+    second: _tateSleep_40
+  - first:
+      213: -3525504882355920331
+    second: _tateSleep_41
+  - first:
+      213: 1788707726617329658
+    second: _tateSleep_42
+  - first:
+      213: 8808294362515919563
+    second: _tateSleep_43
+  - first:
+      213: 2824442673676085900
+    second: _tateSleep_44
+  - first:
+      213: -1878559647748859407
+    second: _tateSleep_45
+  - first:
+      213: -5187825073696205224
+    second: _tateSleep_46
+  - first:
+      213: 4195830522267439619
+    second: _tateSleep_47
+  - first:
+      213: 6496749608777779541
+    second: _tateSleep_48
+  - first:
+      213: 344510220141910742
+    second: _tateSleep_49
+  - first:
+      213: -4517596289810499435
+    second: _tateSleep_50
+  - first:
+      213: 757251818849903646
+    second: _tateSleep_51
+  - first:
+      213: -4728472278355315798
+    second: _tateSleep_52
+  - first:
+      213: 4095900887190483142
+    second: _tateSleep_53
+  - first:
+      213: 7965328005212847995
+    second: _tateSleep_54
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _tateSleep_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 909
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045aa5c6632c97790800000000000000
+      internalID: -7531775362798541504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 923
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb6355dc79add6e0800000000000000
+      internalID: -1811105121513018387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 912
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1805f6a3a2fb49c90800000000000000
+      internalID: -7163890919149711231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 774
+        width: 126
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2251ca46edbb85a30800000000000000
+      internalID: 4204316815996491042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 914
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c379f3c072d71b80800000000000000
+      internalID: -8424033196207148090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 899
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f9204dd6e7134d0800000000000000
+      internalID: -3156602853636530290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 775
+        width: 160
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7455989aeafd9960800000000000000
+      internalID: 7610514830815220862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_7
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 779
+        width: 167
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebea50b62a186d60800000000000000
+      internalID: 7883579901181881320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_8
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 783
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78469f8b6faa3730800000000000000
+      internalID: 3979686097240606847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 878
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c4031f5b4934080800000000000000
+      internalID: -9204349704258696071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 880
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62993795f582b240800000000000000
+      internalID: 4806051042208354927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 835
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ace12c270f7d71d0800000000000000
+      internalID: -3351382878911861600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_12
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 829
+        width: 53
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3a00e56b5a8d3b0800000000000000
+      internalID: -5487453943271218211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 773
+        width: 128
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bce4a8af085528a0800000000000000
+      internalID: -6330556876922229578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 843
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a742e3bb01f9dc6c0800000000000000
+      internalID: -4121463189764430726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 805
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5378264464b59fc80800000000000000
+      internalID: -8288493281845541067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_16
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 804
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2c9ba5f25ac05a0800000000000000
+      internalID: -6553681734926744883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 599
+        width: 142
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43f466675b4f4b60800000000000000
+      internalID: 7732481923970560842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_18
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 607
+        width: 125
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e274e56d4b4936d50800000000000000
+      internalID: 6729385772633179950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_19
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 628
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f3fca63cb743980800000000000000
+      internalID: -8560080912483664011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_20
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 675
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8151887d3f6c3bfa0800000000000000
+      internalID: -5786062345645583080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_21
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 701
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6950bc68bd94bbb0800000000000000
+      internalID: -4921135077386069652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_22
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 644
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded6c3d6215433410800000000000000
+      internalID: 1455583050015206893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 585
+        width: 94
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a056ec5fc8397acb0800000000000000
+      internalID: -4852747839839771382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 505
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066519afe806a1630800000000000000
+      internalID: 3898534594648036960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_25
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 499
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba166779098858320800000000000000
+      internalID: 2559602117827781035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 409
+        width: 111
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc33e81ef5e21c00800000000000000
+      internalID: 870010557537926358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_27
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 392
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b765fe6040ced250800000000000000
+      internalID: 5971421538911872945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_28
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 523
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cc2a7aaa7745d40800000000000000
+      internalID: 5572210213804756034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_29
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 481
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9c732871dfdb1c0800000000000000
+      internalID: -4486151376380376653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 479
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0058dfef8923d5f40800000000000000
+      internalID: 5718782734524843264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_31
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 463
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74de464bb8362fb0800000000000000
+      internalID: -4672985186360699779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_32
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 463
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e7df84f35397840800000000000000
+      internalID: 5222263788836585021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_33
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 462
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876ef553cb8dcf390800000000000000
+      internalID: -7783107753142131080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_34
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 397
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d7a058aadd80690800000000000000
+      internalID: -7635609443760440015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_35
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 461
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4283cbf7b0d3fe0800000000000000
+      internalID: -1207796481818876715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_36
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 398
+        width: 95
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f386fbeb3b2bd26f0800000000000000
+      internalID: -707713081358194625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_37
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 403
+        width: 91
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820b95ee99983aa60800000000000000
+      internalID: 7684136683446054952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_38
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 417
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03156862ae8e94080800000000000000
+      internalID: -9202568271188569808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 418
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a852f54c20cddec90800000000000000
+      internalID: -7138807929869752950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_40
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 327
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4819bbdb36b903d0800000000000000
+      internalID: -3239858088710694834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 321
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53225490df3e21fc0800000000000000
+      internalID: -3525504882355920331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_42
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 317
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affb50c4334c2d810800000000000000
+      internalID: 1788707726617329658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_43
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 311
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc256daed095d3a70800000000000000
+      internalID: 8808294362515919563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_44
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 233
+        width: 67
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aeaeca5af623720800000000000000
+      internalID: 2824442673676085900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_45
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 210
+        width: 97
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9db8214f30ee5e0800000000000000
+      internalID: -1878559647748859407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_46
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 229
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856197de4942108b0800000000000000
+      internalID: -5187825073696205224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 253
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3021e7921a59a3a30800000000000000
+      internalID: 4195830522267439619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_48
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 215
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5598bd11957192a50800000000000000
+      internalID: 6496749608777779541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_49
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 221
+        width: 119
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dadc0d4832f7c400800000000000000
+      internalID: 344510220141910742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_50
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 257
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598f8331c164e41c0800000000000000
+      internalID: -4517596289810499435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_51
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 227
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e142114648c428a00800000000000000
+      internalID: 757251818849903646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 48
+        width: 63
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3795ee387116eb0800000000000000
+      internalID: -4728472278355315798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_53
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 103
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c03238e72097d830800000000000000
+      internalID: 4095900887190483142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _tateSleep_54
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 58
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fbe2e5e978a8e60800000000000000
+      internalID: 7965328005212847995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
