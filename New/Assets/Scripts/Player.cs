@@ -18,7 +18,7 @@ public class Player : NetworkBehaviour
     public bool down;
     public bool left;
     public bool right;
-    
+   
     public Image barra;
     public bool soltouSkill;
     [Header("Components")]
@@ -43,11 +43,19 @@ public class Player : NetworkBehaviour
         if (!isLocalPlayer)
         {
             ParentCamera.gameObject.SetActive(false);
+            barra.gameObject.SetActive(false);
         }
         RbPlayer = GetComponent<Rigidbody2D>();
         lifeP = 100;
     }
-
+    public void AddHP(float life)
+    {
+        lifeP += life;
+    }
+    public void AddAtk(float life)
+    {
+        lifeP += life;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -74,10 +82,18 @@ public class Player : NetworkBehaviour
         {
             CmdFire(up, down, left, right);
         }
-        DestroyPlayer();
         barra.fillAmount = lifeP / 100;
+        lose();
+        DestroyPlayer();
+       
 
        
+    }
+    [Client]
+    public void lose()
+    {
+        barra.fillAmount = lifeP / 100;
+
     }
     [Command]
     void DestroyPlayer()
