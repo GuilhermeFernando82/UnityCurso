@@ -6,9 +6,9 @@ using UnityEngine.AI;
 using Mirror;
 public class Player : NetworkBehaviour
 {
-    
+
     public Rigidbody2D RbPlayer;
-   
+    
     Vector2 direcao;
     public GameObject SkillUp;
     public GameObject SkillDown;
@@ -18,7 +18,7 @@ public class Player : NetworkBehaviour
     public bool down;
     public bool left;
     public bool right;
-   
+
     public Image barra;
     public bool soltouSkill;
     [Header("Components")]
@@ -34,7 +34,8 @@ public class Player : NetworkBehaviour
     public GameObject ParentCamera;
     public Camera camera;
     public GameObject obj;
-
+    public GameObject hudGameObject;
+    public Controller mvjoystick;
     [SyncVar]
     public float lifeP;
     // Start is called before the first frame update
@@ -42,8 +43,10 @@ public class Player : NetworkBehaviour
     {
         if (!isLocalPlayer)
         {
-            ParentCamera.gameObject.SetActive(false);
-            barra.gameObject.SetActive(false);
+           ParentCamera.gameObject.SetActive(false);
+           hudGameObject.gameObject.SetActive(false);
+           mvjoystick.gameObject.SetActive(false);
+          
         }
         RbPlayer = GetComponent<Rigidbody2D>();
         lifeP = 100;
@@ -60,11 +63,11 @@ public class Player : NetworkBehaviour
     void Update()
     {
         if (!isLocalPlayer) return;
-        
+
         anim.SetFloat("horizontal", direcao.x);
         anim.SetFloat("vertical", direcao.y);
         anim.SetFloat("velocidade", direcao.sqrMagnitude);
-        if(direcao != Vector2.zero)
+        if (direcao != Vector2.zero)
         {
             anim.SetFloat("horizontalidle", direcao.x);
             anim.SetFloat("verticalidle", direcao.y);
@@ -76,7 +79,6 @@ public class Player : NetworkBehaviour
             
             CmdFireClient(up, down, left, right);
             //CmdFire(up, down, left, right);
-
         }*/
         if (Input.GetKeyDown(shot))
         {
@@ -85,11 +87,11 @@ public class Player : NetworkBehaviour
         barra.fillAmount = lifeP / 100;
         lose();
         DestroyPlayer();
-       
 
-       
+
+
     }
-    [Client]
+    [ClientRpc]
     public void lose()
     {
         barra.fillAmount = lifeP / 100;
@@ -109,7 +111,7 @@ public class Player : NetworkBehaviour
 
         }
     }
- 
+
     [Command]
     void CmdFire(bool up, bool down, bool left, bool right)
     {
@@ -119,7 +121,7 @@ public class Player : NetworkBehaviour
             Physics2D.IgnoreCollision(obj.GetComponent<Collider2D>(), GetComponent<Collider2D>());
             NetworkServer.Spawn(obj);
             RpgFireUp();
-            
+
 
         }
         if (down)
@@ -128,7 +130,7 @@ public class Player : NetworkBehaviour
             Physics2D.IgnoreCollision(obj.GetComponent<Collider2D>(), GetComponent<Collider2D>());
             NetworkServer.Spawn(obj);
             RpgFireDown();
-         
+
 
         }
         if (left)
@@ -137,7 +139,7 @@ public class Player : NetworkBehaviour
             Physics2D.IgnoreCollision(obj.GetComponent<Collider2D>(), GetComponent<Collider2D>());
             NetworkServer.Spawn(obj);
             RpgFireLeft();
-           
+
 
         }
         if (right)
@@ -146,7 +148,7 @@ public class Player : NetworkBehaviour
             Physics2D.IgnoreCollision(obj.GetComponent<Collider2D>(), GetComponent<Collider2D>());
             NetworkServer.Spawn(obj);
             RpgFireRight();
-           
+
 
         }
     }
@@ -181,48 +183,93 @@ public class Player : NetworkBehaviour
     public void input()
     {
         direcao = Vector2.zero;
-        if (Input.GetKey(KeyCode.UpArrow)){
+       
+        /*if (Input.GetKey(KeyCode.UpArrow))
+        {
             direcao += Vector2.up;
             up = true;
             down = false;
             left = false;
             right = false;
         }
-        if (Input.GetKey(KeyCode.DownArrow)){
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
             direcao += Vector2.down;
             up = false;
             down = true;
             left = false;
             right = false;
         }
-        if (Input.GetKey(KeyCode.LeftArrow)){
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
             direcao += Vector2.left;
             up = false;
             down = false;
             left = true;
             right = false;
         }
-        if (Input.GetKey(KeyCode.RightArrow)){
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
             direcao += Vector2.right;
             up = false;
             down = false;
             left = false;
             right = true;
+        }*/
+        
+        if(RbPlayer.velocity.y > 1)
+           {
+            direcao += Vector2.up;
+            up = true;
+            left = false;
+            down = false;
+            right = false;
+            
+        }
+        if (RbPlayer.velocity.y < -1)
+        {
+            direcao += Vector2.down;
+            down = true;
+            left = false;
+            up = false;
+            right = false;
+        }
+        if (RbPlayer.velocity.x > 1)
+        {
+            direcao += Vector2.right;
+
+            left = false;
+            right = true;
+            down = false;
+            up = false;
+           
+
+        }
+        if (RbPlayer.velocity.x < -1)
+        {
+            direcao += Vector2.left;
+            left = true;
+            down = false;
+            up = false;
+            right = false;
+            
         }
     }
     public void FixedUpdate()
     {
-        RbPlayer.MovePosition(RbPlayer.position + direcao * speed * Time.fixedDeltaTime);
+       //    RbPlayer.MovePosition(RbPlayer.position + direcao * speed * Time.fixedDeltaTime);
+        
+        RbPlayer.velocity = new Vector2(mvjoystick.joyvec.x * speed, mvjoystick.joyvec.y * speed);
     }
     private void OnTriggerEnter2D(Collider2D Collider2D)
     {
         //physics.ignorecollision
-        
+
         if (Collider2D.CompareTag("SkillVilao"))
         {
             lifeP += -30f;
         }
-      
+
         if (Collider2D.CompareTag("SkillPlayer"))
         {
 
@@ -230,15 +277,15 @@ public class Player : NetworkBehaviour
             {
                 lifeP += -20f;
             }
-                
-            
-                
-        
-        {
-                
+
+
+
+
+            {
+
+            }
+
         }
-            
-        }
-        
+
     }
 }
