@@ -8,7 +8,7 @@ public class Enemy : NetworkBehaviour
     public float RaiodeVisao, RaiodeAtaque, vel;
     public LayerMask OqePlayer;
 
-    public GameObject[] Player;
+    public GameObject Player;
     public List<GameObject> PLAYER = new List<GameObject>();
     public LayerMask Raycast;
 
@@ -70,19 +70,15 @@ public class Enemy : NetworkBehaviour
     }
     public void RaioJogador()
     {
-        Player = GameObject.FindGameObjectsWithTag("Player");
-        foreach (GameObject play in Player)
-        {
-            PLAYER.Add(play);
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, play.transform.position - transform.position, RaiodeVisao, OqePlayer);
-            Vector3 temp = transform.TransformDirection(play.transform.position - transform.position);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Player.transform.position - transform.position, RaiodeVisao, OqePlayer);
+            Vector3 temp = transform.TransformDirection(Player.transform.position - transform.position);
             Debug.DrawRay(transform.position, temp, Color.cyan);
 
             if (hit.collider != null)
             {
                 if (hit.collider.tag == "Player")
                 {
-                    alvo = play.transform.position;
+                    alvo = Player.transform.position;
                     print("Colidiu");
                     if (!atk)
                     {
@@ -110,11 +106,15 @@ public class Enemy : NetworkBehaviour
                 transform.position = posicaoInicial;
             }
 
-        }
+        
     }
 
-      void OnTriggerStay2D(Collider2D collision)
+      void OnTriggerEnter2D(Collider2D collision)
         {
+        if (collision.CompareTag("Player"))
+        {
+            Player = collision.gameObject;
+        }
             if (collision.CompareTag("SkillPlayer"))
             {
                 life += -20f;
